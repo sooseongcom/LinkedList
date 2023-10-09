@@ -12,7 +12,7 @@ This is the code that I learned.
 template <class T>
 ```
 
-* reference: Litcoder. n. d. "C++ template 선언과 구현을 서로 다른 파일에 나눌 수 없다", Litcoder Blog. <https://www.litcoder.com/?p=3208>{: target="_blank"}
+* reference: Litcoder. n. d. "C++ template 선언과 구현을 서로 다른 파일에 나눌 수 없다", Litcoder Blog. <https://www.litcoder.com/?p=3208>
 
 ## 3\. Debug Delete
 ```cpp
