@@ -2,7 +2,6 @@
 #include "Chain.h"
 #include "Stack.h"
 #include "Queue.h"
-//#include <utility>
 
 using namespace std;
 
@@ -32,18 +31,6 @@ int main(void)
 	}
 
 	cout << "--- Test: Stack ---" << endl;
-	/*Stack<pair<int, char>> sp;
-
-	for (int i = 0; i < 4; i++) {
-		sp.push(make_pair(i, 'a' + i));
-	}
-
-	while (!sp.empty()) {
-		cout << "Stack top <first, second>: <"
-			<< sp.top().first << ","
-			<< sp.top().second << ">" << endl;
-		sp.pop();
-	}*/
 	Stack<double> sp;
 
 	for (int i = 0; i < 4; i++) {
