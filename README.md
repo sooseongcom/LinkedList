@@ -34,4 +34,4 @@ If you want to print when a node is deleted, replace the destructer of Chain wit
 
 ## 4\. To Do
 * Doubly-linked List
-* In Chain.h, ```T Chain<T>::Get(int index)``` Needs Exception Handling
+* In Chain.h, ```T Chain<T>::Get(int index)``` needs Exception Handling.
