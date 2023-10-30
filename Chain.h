@@ -29,6 +29,7 @@ public:
 	T Get(int index);
 	ChainNode<T>* GetIter(int index);
 	ChainNode<T>* Insert(int index, T data);
+	int GetSize();
 	int Delete(int index);
 
 private:
@@ -130,6 +131,18 @@ ChainNode<T>* Chain<T>::Insert(int index, T data) {
 	}
 
 	return newNode;
+}
+
+template <class T>
+int Chain<T>::GetSize() {
+	int currIndex = 0;
+	ChainNode<T>* currNode = first;
+
+	for (currIndex = 0; currNode != NULL; currIndex++) {
+		currNode = currNode->link;
+	}
+
+	return currIndex;
 }
 
 template <class T>

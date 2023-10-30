@@ -17,12 +17,15 @@ int main(void)
 	chain.Insert(2, 5);
 	cout << "chain[4]==" << chain.Get(4) << endl;
 	chain.Print();
+	cout << "chain size: " << chain.GetSize() << endl;
 
 	chain.Delete(3);
 	chain.Print();
+	cout << "chain size: " << chain.GetSize() << endl;
 
 	chain.Delete(0);
 	chain.Print();
+	cout << "chain size: " << chain.GetSize() << endl;
 
 	chain.Delete(4);
 
